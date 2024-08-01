@@ -8,7 +8,35 @@ body {
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
 }
+header {
+  max-width: 1440px;
+  padding: 50px 120px;
+}
 section {
   max-width: 1110px;
   margin: 0 auto;
+}
+
+/* nav section */
+.nav-icon {
+  display: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+}
+.nav-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-weight: 500;
+  margin-left: 20px;
 }

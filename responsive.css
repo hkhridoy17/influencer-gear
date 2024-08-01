@@ -1,3 +1,45 @@
-/* responsive for small device */
+/* responsive for extra small device */
 @media screen and (max-width: 576px) {
+  header {
+    padding: 30px 20px;
+  }
+
+  /* nav section */
+  .nav-title {
+    font-size: 1rem;
+  }
+  .nav-items {
+    display: none;
+  }
+  .nav-icon {
+    display: block;
+  }
+  .nav-list a {
+    margin-left: 0;
+  }
+}
+
+/* responsive for small device */
+@media screen and (min-width: 576.02px) and (max-width: 768px) {
+  header {
+    padding: 50px 20px;
+  }
+
+  /* nav section */
+  .nav-items {
+    display: none;
+  }
+  .nav-icon {
+    display: block;
+  }
+  .nav-list a {
+    margin-left: 0;
+  }
+}
+
+/* responsive for small device */
+@media screen and (min-width: 768.02px) and (max-width: 992px) {
+  header {
+    padding: 50px 20px;
+  }
 }
