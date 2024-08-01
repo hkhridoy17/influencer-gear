@@ -10,11 +10,22 @@ body {
 }
 header {
   max-width: 1440px;
-  padding: 50px 120px;
+  margin: 50px 100px;
 }
 section {
   max-width: 1110px;
   margin: 0 auto;
+  margin-bottom: 100px;
+}
+.btn-primary {
+  background-color: #e02c6d;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 24px;
+  border: none;
+}
+.btn-primary i {
+  margin-left: 10px;
 }
 
 /* nav section */
@@ -39,4 +50,41 @@ section {
   color: #3a3a3a;
   font-weight: 500;
   margin-left: 20px;
+}
+
+/* banner section */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+.banner-content h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+.banner-content p {
+  width: 80%;
+  font-weight: 500;
+  color: #3a3a3a;
+  margin-bottom: 24px;
+}
+.banner-content button {
+  border-radius: 40px;
+}
+.banner-image {
+  width: 100%;
+  background-image: url(./images/circle-design.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+}
+.banner-image img {
+  width: 100%;
+  object-fit: cover;
 }

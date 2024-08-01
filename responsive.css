@@ -1,7 +1,7 @@
 /* responsive for extra small device */
 @media screen and (max-width: 576px) {
   header {
-    padding: 30px 20px;
+    margin: 30px 20px;
   }
 
   /* nav section */
@@ -17,12 +17,27 @@
   .nav-list a {
     margin-left: 0;
   }
+
+  /* banner section */
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .banner-content h2 {
+    font-size: 1.75rem;
+  }
+  .banner-content p {
+    width: 100%;
+  }
+  .banner-image {
+    width: 80%;
+  }
 }
 
 /* responsive for small device */
 @media screen and (min-width: 576.02px) and (max-width: 768px) {
   header {
-    padding: 50px 20px;
+    margin: 50px 20px;
   }
 
   /* nav section */
@@ -35,11 +50,30 @@
   .nav-list a {
     margin-left: 0;
   }
+
+  /* banner section */
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .banner-content h2 {
+    font-size: 2.25rem;
+  }
+  .banner-content p {
+    width: 100%;
+  }
+  .banner-image {
+    width: 80%;
+  }
 }
 
-/* responsive for small device */
+/* responsive for medium device */
 @media screen and (min-width: 768.02px) and (max-width: 992px) {
   header {
-    padding: 50px 20px;
+    margin: 50px 20px;
+  }
+  .banner-content h2 {
+    font-size: 2rem;
+    margin-top: 20px;
   }
 }
