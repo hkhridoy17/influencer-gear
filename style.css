@@ -9,12 +9,16 @@ body {
   font-family: "Poppins", sans-serif;
 }
 header {
-  max-width: 1440px;
-  margin: 50px 100px;
+  max-width: 1150px;
+  margin: 30px auto 80px auto;
+  padding: 0 20px;
 }
-section {
+main {
   max-width: 1110px;
   margin: 0 auto;
+  padding: 0 20px;
+}
+section {
   margin-bottom: 100px;
 }
 .btn-primary {
@@ -87,4 +91,19 @@ section {
 .banner-image img {
   width: 100%;
   object-fit: cover;
+}
+
+/* company logo section */
+.logo {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 30px 20px;
 }

@@ -1,9 +1,5 @@
 /* responsive for extra small device */
-@media screen and (max-width: 576px) {
-  header {
-    margin: 30px 20px;
-  }
-
+@media screen and (max-width: 575.98px) {
   /* nav section */
   .nav-title {
     font-size: 1rem;
@@ -32,15 +28,19 @@
   .banner-image {
     width: 80%;
   }
+
+  /* company logo section */
+  .logo {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* responsive for small device */
-@media screen and (min-width: 576.02px) and (max-width: 768px) {
-  header {
-    margin: 50px 20px;
-  }
-
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
   /* nav section */
+  .nav-title {
+    font-size: 1rem;
+  }
   .nav-items {
     display: none;
   }
@@ -57,23 +57,37 @@
     text-align: center;
   }
   .banner-content h2 {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
   }
   .banner-content p {
     width: 100%;
   }
   .banner-image {
-    width: 80%;
+    width: 60%;
+  }
+
+  /* company logo section */
+  .logo {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 /* responsive for medium device */
-@media screen and (min-width: 768.02px) and (max-width: 992px) {
-  header {
-    margin: 50px 20px;
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+  /* banner section */
+  .banner {
+    gap: 30px;
   }
   .banner-content h2 {
     font-size: 2rem;
     margin-top: 20px;
+  }
+  .banner-image img {
+    width: 300px;
+  }
+
+  /* company logo section */
+  .logo {
+    grid-template-columns: repeat(5, 1fr);
   }
 }
