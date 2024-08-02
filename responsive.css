@@ -33,6 +33,26 @@
   .logo {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* product section */
+  .product {
+    padding: 0;
+  }
+  .product-title {
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+  }
+  .product-collection {
+    grid-template-columns: repeat(1, 300px);
+    justify-content: center;
+    gap: 15px;
+  }
+  .product-name {
+    font-size: 1.5rem;
+  }
+  .product-value {
+    font-size: 1.25rem;
+  }
 }
 
 /* responsive for small device */
@@ -70,6 +90,25 @@
   .logo {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  /* product section */
+  .product {
+    padding: 0;
+  }
+  .product-title {
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+  }
+  .product-collection {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .product-name {
+    font-size: 1.5rem;
+  }
+  .product-value {
+    font-size: 1.25rem;
+  }
 }
 
 /* responsive for medium device */
@@ -89,5 +128,12 @@
   /* company logo section */
   .logo {
     grid-template-columns: repeat(5, 1fr);
+  }
+
+  /* product section */
+  .product-collection {
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+    gap: 40px;
   }
 }
