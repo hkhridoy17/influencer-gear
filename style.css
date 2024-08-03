@@ -27,6 +27,7 @@ section {
   font-weight: 700;
   padding: 10px 24px;
   border: none;
+  cursor: pointer;
 }
 .btn-primary i {
   margin-left: 10px;
@@ -95,9 +96,6 @@ section {
 
 /* company logo section */
 .logo {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   align-items: center;
@@ -149,4 +147,36 @@ section {
   font-size: 0.875rem;
   font-weight: 500;
   color: #787885;
+}
+.product button {
+  display: block;
+  margin-left: auto;
+  background-color: #fff;
+  color: #e02c6d;
+  padding: 0;
+  margin-top: 30px;
+}
+
+/* featured section */
+.featured {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 70px;
+  align-items: center;
+}
+.featured-image img {
+  width: 100%;
+  object-fit: cover;
+}
+.featured-content h2 {
+  font-size: 2.125rem;
+  font-weight: 700;
+  color: #0a0826;
+  margin-bottom: 16px;
+}
+.featured-content p {
+  font-weight: 700;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin-bottom: 16px;
 }
