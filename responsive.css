@@ -68,6 +68,24 @@
     font-size: 0.875rem;
     line-height: normal;
   }
+
+  /* footer section */
+  .footer-content h2 {
+    font-size: 1.5rem;
+  }
+  .footer-content p {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .social-links {
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .social-links a {
+    font-size: 1rem;
+    width: 30px;
+    height: 30px;
+  }
 }
 
 /* responsive for small device */
@@ -138,6 +156,11 @@
   }
   .featured-content h2 {
     font-size: 2rem;
+  }
+
+  /* footer section */
+  .footer-content h2 {
+    font-size: 1.75rem;
   }
 }
 
